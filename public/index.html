@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pokedex</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="Pokemon, PokeDex" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
+  </head>
+
+  <body>
+    <div class="pokedex">
+      <h1>Pokedex LaunchX</h1>
+      <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" />
+      <button onclick="fetchPokemon()">Buscar</button>
+    </div>
+    <div class="pokedex">
+      <h3>Cadena de evolución</h3>
+      <div id="evoluton-chain"></div>
+    </div>
+    <div class="pokedex">
+      <div class="left">
+        <div class="logo"></div>
+        <div class="bg_curve1_left"></div>
+        <div class="bg_curve2_left"></div>
+        <div class="curve1_left">
+          <div class="buttonGlass">
+            <div class="reflect"></div>
+          </div>
+          <div class="miniButtonGlass1"></div>
+          <div class="miniButtonGlass2"></div>
+          <div class="miniButtonGlass3"></div>
+        </div>
+        <div class="curve2_left">
+          <div class="junction">
+            <div class="junction1"></div>
+            <div class="junction2"></div>
+          </div>
+        </div>
+        <div class="screen">
+          <div class="topPicture">
+            <div class="buttontopPicture1"></div>
+            <div class="buttontopPicture2"></div>
+          </div>
+          <div class="picture">
+            <img id="pokeImg" src="" alt="psykokwak" height="170" />
+          </div>
+          <div class="buttonbottomPicture"></div>
+          <div class="speakers">
+            <div class="sp"></div>
+            <div class="sp"></div>
+            <div class="sp"></div>
+            <div class="sp"></div>
+          </div>
+        </div>
+        <div class="bigbluebutton"></div>
+        <div class="barbutton1"></div>
+        <div class="barbutton2"></div>
+        <div class="cross">
+          <div class="leftcross">
+            <div class="leftT"></div>
+          </div>
+          <div class="topcross">
+            <div class="upT"></div>
+          </div>
+          <div class="rightcross">
+            <div class="rightT"></div>
+          </div>
+          <div class="midcross">
+            <div class="midCircle"></div>
+          </div>
+          <div class="botcross">
+            <div class="downT"></div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="stats">
+          <strong>Name:</strong> <span id="name"></span><br />
+          <strong>Type:</strong><span id="type"></span> <br />
+          <strong>Height:</strong><span id="height"></span> <br />
+          <strong>Weight:</strong> <span id="weight"></span><br />
+          <span id="details"></span>
+        </div>
+        <div class="blueButtons1">
+          <div class="blueButton"></div>
+          <div class="blueButton"></div>
+          <div class="blueButton"></div>
+          <div class="blueButton"></div>
+          <div class="blueButton"></div>
+        </div>
+        <div class="blueButtons2">
+          <div class="blueButton"></div>
+          <div class="blueButton"></div>
+          <div class="blueButton"></div>
+          <div class="blueButton"></div>
+          <div class="blueButton"></div>
+        </div>
+        <div class="miniButtonGlass4"></div>
+        <div class="miniButtonGlass5"></div>
+        <div class="barbutton3"></div>
+        <div class="barbutton4"></div>
+        <div class="yellowBox1"></div>
+        <div class="yellowBox2"></div>
+        <div class="bg_curve1_right"></div>
+        <div class="bg_curve2_right"></div>
+        <div class="curve1_right"></div>
+        <div class="curve2_right"></div>
+      </div>
+    </div>
+    <script src="./pokedex.js"></script>
+  </body>
+</html>
